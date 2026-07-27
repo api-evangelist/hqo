@@ -1,7 +1,30 @@
 aid: hqo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hqo.png
 name: HqO
-description: HqO is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  HqO is a Boston-based proptech company whose Real Estate Experience (REX)
+  Platform helps commercial real estate owners, operators, and asset managers
+  bridge the "experience gap" for the tenants and employees who occupy their
+  buildings. The platform spans six integrated suites — Intelligence, Experience,
+  Tenant, Operations, Leasing, and Vendor — covering AI-powered portfolio
+  analytics, mobile tenant apps, amenity and space booking, access control, a
+  cloud building management system, leasing engagement, and vendor management.
+  HqO manages more than 150 million square feet of real estate for landlords such
+  as JLL, Hines, Vornado, Gecina, and Alexandria Real Estate. Programmatic
+  integration is available through APIs and SDKs offered under an Enterprise
+  Development engagement rather than a self-serve public developer portal; the
+  platform also supports SSO (SAML), webview, deep-link, and native integrations.
 url: https://raw.githubusercontent.com/api-evangelist/hqo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Proptech
+- Commercial Real Estate
+- Workplace Experience
+- Tenant Experience
+- Real Estate Technology
+- Building Management
+- Property Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,46 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/hqo-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/hqo-domain-security.yml
 - type: Website
-  url: https://www.hqo.co/
+  url: https://www.hqo.com/
+- type: Support
+  url: https://helphub.hqo.com/help/
+- type: HelpCenter
+  url: https://helphub.hqo.com/help/hqo-support
+- type: Documentation
+  url: https://helphub.hqo.com/help/integrations-technology
+- type: Blog
+  url: https://www.hqo.com/resources/blog/
+- type: TermsOfService
+  url: https://www.hqo.com/legal/
+- type: PrivacyPolicy
+  url: https://www.hqo.com/legal/privacy-policy/
+- type: TrustCenter
+  url: https://www.hqo.com/trust-and-security/
+- type: Compliance
+  url: https://www.hqo.com/trust-and-security/
+- type: Conformance
+  url: conformance/hqo-conformance.yml
+- type: Security
+  url: https://www.hqo.com/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/hqo-security.txt
+- type: WellKnown
+  url: well-known/hqo-well-known.yml
+- type: Lifecycle
+  url: lifecycle/hqo-lifecycle.yml
+- type: LLMsTxt
+  url: llms/hqo-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/HqOapp
+- type: SignUp
+  url: https://www.hqo.com/demo/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

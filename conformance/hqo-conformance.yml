@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.hqo.com/trust-and-security/
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: SOC 2 Type II report available upon request (Trust & Security page)
+- id: iso-27001
+  conforms: true
+  evidence: ISO 27001:2022 certified (Trust & Security page)
+- id: csa-star-level-1
+  conforms: true
+  evidence: CSA STAR Level 1 (CAIQ v4.02) completed
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliant per Trust & Security page
+- id: ccpa
+  conforms: true
+  evidence: CCPA compliant per Trust & Security page
+- id: pipeda
+  conforms: true
+  evidence: PIPEDA compliant per Trust & Security page
+- id: eu-us-data-privacy-framework
+  conforms: true
+  evidence: EU-U.S., UK Extension, and Swiss-U.S. Data Privacy Framework participant
+- id: saml-sso
+  conforms: true
+  evidence: SSO via SAML documented on integrations and trust pages
+- id: oauth2
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false

@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.hqo.com/sla/
+sla:
+  url: https://www.hqo.com/sla/
+  notes: >-
+    HqO publishes a Service Level Agreement covering service availability, with
+    redundancy across multiple availability zones, infrastructure-as-code
+    provisioning, and an annually tested Business Continuity and Disaster
+    Recovery plan.
+versioning:
+  scheme: unknown
+  notes: >-
+    No public developer portal or API versioning policy is published. Programmatic
+    API/SDK access is delivered under an Enterprise Development engagement.
+status_page: null
+deprecation: null
+deprecated_operations: []
